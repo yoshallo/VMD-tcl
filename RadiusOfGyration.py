@@ -27,6 +27,7 @@ mol addfile "$i" first 0 step """+steps+""" waitfor all
 
 
 
+
 puts -nonewline " Select yout systemr (e.g protein, name CA, resid number etc.): "
 gets stdin selmode
 set sel [atomselect top "$selmode"]
